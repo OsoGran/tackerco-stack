@@ -19,5 +19,12 @@ disqusShortname = "maxtacker"
 path = "github.com/CaiJimmy/hugo-theme-stack/v3"
 
 [Params]
-description= "The personal website for Max Tacker. A blog on hobbies and interests as well as hosting my CV."
+description = "The personal website for Max Tacker. A blog on hobbies and interests as well as hosting my CV."
+
+[menu]
+[[menu.main]]
+  name = "CV"
+  weight = 5
+  [main.menu.params]
+    icon = "user.svg"
 
